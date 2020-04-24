@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>UTKRISHT</title>
+        <style type="text/css">
+
+            body{
+                margin:0;
+                padding: 0;
+                font-family: Helvetica, sans-serif;
+                background: black;
+            }
+
+            .text-container h1{
+                font-size: 150px;
+                margin-bottom: 0;
+                color: rgba(225,225,225,.1);
+                background-image: url("img/art3.jpg");
+                background-repeat: repeat-x;
+                background-clip: text;
+                -webkit-background-clip: text;
+                animation: animate 15s linear infinite;
+            }
+
+            .text-container h3{
+                margin-top: 0;
+                margin-left: 20px;
+                font-size: 90px;
+                color: rgba(225,225,225,.1);
+                background-image: url("img/art8.jpg");
+                background-repeat: repeat-x;
+                background-clip: text;
+                -webkit-background-clip: text;
+                animation: animate 25s linear infinite;
+            }
+
+            @keyframes animate{
+                0%{
+                background-position: left 0px top 10px;
+                }
+                40% {
+                background-position: left 800px top 10px;
+                }
+            }
+
+            .text-container{
+                margin-top:17%;
+                text-align:center;
+            }
+        
+            .lead{
+                text-align: center;
+                font-size: 2em;
+                padding-top: 2em;
+            }
+
+            @media (max-width: 700px){
+                .text-container h1{
+                    margin-top: 4em;
+                    font-size: 70px;
+                }
+                .text-container h3{
+                    padding-top: 10px;
+                    font-size: 30px;
+                }
+                @keyframes animate{
+                0%{
+                background-position: left 0px top 10px;
+                }
+                40% {
+                background-position: left 500px top 10px;
+                }
+            }
+            }
+        </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+    </head>
+    <body>
+        <div class="text-container">
+            <h1>UTKRISHT</h1>
+            <h3>The Fine Arts Club</h3>
+         </div>
+
+         <div class="lead">
+             <a href="utkristh.html"><i class="fas fa-chevron-circle-down"></i></a>
+         </div>
+    </body>
+</html>
